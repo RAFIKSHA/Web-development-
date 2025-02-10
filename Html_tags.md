@@ -71,6 +71,50 @@ HTML (**HyperText Markup Language**) uses **tags** to define the structure and c
 | **Ordered List** | `<ol>` | `<ol><li>First</li><li>Second</li></ol>` |
 | **List Item** | `<li>` | `<li>Item</li>` |
 
+'''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Tag Example</title>
+</head>
+<body>
+
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Step 1: Turn on the computer</li>
+        <li>Step 2: Open the browser</li>
+        <li>Step 3: Search for information</li>
+    </ol>
+
+    <h2>Nested List</h2>
+    <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
+'''
+
 ---
 
 ### 🔹 5️⃣ Link & Image Tags
