@@ -71,13 +71,13 @@ HTML (**HyperText Markup Language**) uses **tags** to define the structure and c
 | **Ordered List** | `<ol>` | `<ol><li>First</li><li>Second</li></ol>` |
 | **List Item** | `<li>` | `<li>Item</li>` |
 
-'''
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List Tag Example</title>
+    <title></title>
 </head>
 <body>
 
@@ -113,7 +113,7 @@ HTML (**HyperText Markup Language**) uses **tags** to define the structure and c
 
 </body>
 </html>
-'''
+```
 
 ---
 
@@ -123,7 +123,28 @@ HTML (**HyperText Markup Language**) uses **tags** to define the structure and c
 |------|------------|---------|
 | `<a>` | Hyperlink | `<a href="https://google.com">Google</a>` |
 | `<img>` | Image | `<img src="image.jpg" alt="My Image">` |
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlink and Image Example</title>
+</head>
+<body>
 
+    <h1>Hyperlink Example</h1>
+    <p>Click the link below to visit Google:</p>
+    <a href="https://google.com" target="_blank">Google</a>
+
+    <h1>Image Example</h1>
+    <p>Below is an image:</p>
+    <img src="image.jpg" alt="My Image" width="300">
+
+</body>
+</html>
+
+```
 ---
 
 ### 🔹 6️⃣ Table Tags
@@ -135,17 +156,48 @@ HTML (**HyperText Markup Language**) uses **tags** to define the structure and c
 | `<td>` | Table data | `<td>Data</td>` |
 | `<th>` | Table header | `<th>Heading</th>` |
 
-```html
-<table border="1">
-    <tr>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <td>Shah</td>
-        <td>25</td>
-    </tr>
-</table>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Example</title>
+</head>
+<body>
+
+    <h1>Simple Table</h1>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rahul</td>
+            <td>25</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Anjali</td>
+            <td>22</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Amit</td>
+            <td>28</td>
+            <td>Kolkata</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
 ```
 
 ---
