@@ -1,4 +1,3 @@
-
 ---
 
 ## **🔹 1. `alert()` - Simple Alert Message**
