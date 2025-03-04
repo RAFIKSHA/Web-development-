@@ -198,9 +198,114 @@ console.log(10 > 5);    // true
 ```
 
 ---
+# **📌 JavaScript Conditional Statements & Loops**  
 
-### 🎯 **Next Step:**  
-➡️ **Learn Conditional Statements (`if-else`, `switch-case`) and Loops (`for`, `while`, `do-while`).**  
-➡️ **Practice:** Try writing small programs using the above concepts.  
+In JavaScript, **Conditional Statements** are used for decision-making, and **Loops** are used for repeated execution. Let’s explore them one by one.  
 
-If you have any questions or want to learn a specific topic faster, let me know! 😊
+---
+
+## **✅ 1. Conditional Statements**  
+
+### **🔹 if-else Statement**
+```js
+let num = 10;
+if (num > 0) {
+    console.log("Number is positive");
+} else {
+    console.log("Number is not positive");
+}
+```
+✔ **If the condition is true, the code inside `if` runs. Otherwise, the `else` block runs.**  
+
+---
+
+### **🔹 if-else if-else (Multiple Conditions)**
+```js
+let num = -5;
+if (num > 0) {
+    console.log("Positive number");
+} else if (num < 0) {
+    console.log("Negative number");
+} else {
+    console.log("Number is zero");
+}
+```
+✔ **Checks multiple conditions one by one.**  
+
+---
+
+### **🔹 switch-case (Alternative to if-else)**
+```js
+let day = 3;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    default:
+        console.log("Invalid day");
+}
+```
+✔ **Each `case` is checked, and when a match is found, the corresponding block runs.**  
+✔ **Use `break` to stop execution after a case is matched.**  
+
+---
+
+## **✅ 2. Loops in JavaScript**  
+
+Loops allow you to execute a block of code multiple times.
+
+---
+
+### **🔹 for Loop (Fixed Repetitions)**
+```js
+for (let i = 1; i <= 5; i++) {
+    console.log("Number:", i);
+}
+```
+✔ **Runs from `i = 1` to `i = 5`, printing each number.**  
+
+---
+
+### **🔹 while Loop (Condition-Based)**
+```js
+let i = 1;
+while (i <= 5) {
+    console.log("Count:", i);
+    i++;
+}
+```
+✔ **Runs as long as the condition (`i <= 5`) is true.**  
+
+---
+
+### **🔹 do-while Loop (Runs at Least Once)**
+```js
+let i = 1;
+do {
+    console.log("Value:", i);
+    i++;
+} while (i <= 5);
+```
+✔ **Executes the block at least once, even if the condition is false.**  
+
+---
+
+## **🚀 Example: Combining Conditional Statements & Loops**
+```js
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        console.log(i + " is even");
+    } else {
+        console.log(i + " is odd");
+    }
+}
+```
+✔ **Prints even and odd numbers from 1 to 10 using a loop and `if-else`.**  
+
+---
