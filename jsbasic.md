@@ -1,3 +1,7 @@
+### 🚀 **Step 1: JavaScript Basics**  
+
+JavaScript is a **client-side scripting language** used to make **web pages dynamic and interactive**.  
+
 ---
 
 ## **1️⃣ JavaScript Introduction & Setup**
