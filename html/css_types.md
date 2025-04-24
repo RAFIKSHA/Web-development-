@@ -31,6 +31,46 @@ CSS is written inside a `<style>` tag in the `<head>` section of the HTML file.
 </body>
 </html>
 ```
+---
+
+### ✅ Internal CSS with ID and Class
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Class selector - starts with a dot (.) */
+    .highlight {
+      color: orange;
+      font-weight: bold;
+    }
+
+    /* ID selector - starts with a hash (#) */
+    #special {
+      color: blue;
+      font-size: 20px;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 class="highlight">This heading uses a class selector (highlight).</h2>
+
+  <p>This is a normal paragraph.</p>
+
+  <p id="special">This paragraph uses an ID selector (special).</p>
+
+</body>
+</html>
+```
+
+---
+
+### 🧠 Quick Notes:
+- **Class** is reusable. You can apply it to multiple elements.
+- **ID** should be unique for each page. It’s used when you want to target a single specific element.
 
 ---
 
